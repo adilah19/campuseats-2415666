@@ -1,9 +1,12 @@
 # AI usage log
 ## Week 1
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): Claude
+- What I asked for: Help fixing the errors I got when creating my Vite + reactdev project in Terminal. 
+- What I kept, changed or rejected, and why: 
+    > Kept: the command for creating vite @ reactdev.
+    > Changed: the command Claude gave me (`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`).
+    > Rejected: -
+- One thing the AI got wrong and how I fixed it: -
 
 ## Week 2
 - Tool(s): Claude 
