@@ -1,13 +1,13 @@
 [
   {
     "id": "2415666-kafe-halimah",
-    "name": "Kafe Mahallah Halimah",
+    "name": "Halimah's Corner",
     "location": "Mahallah Halimah, Beside Mart Halimah",
     "openHours": "7:00 am - 10:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "5666-hal1",
+        "id": "2415666-hal1",
         "name": "Nasi Lemak Ayam",
         "description": "Coconut rice, fried chicken, sambal, egg and peanuts",
         "price": 7.5,
@@ -15,7 +15,7 @@
         "available": true
       },
       {
-        "id": "5666-hal2",
+        "id": "2415666-hal2",
         "name": "Mee Goreng Mamak",
         "description": "Yellow noodles fried with egg, tofu and spicy sauce",
         "price": 6,
@@ -23,7 +23,7 @@
         "available": true
       },
       {
-        "id": "5666-hal3",
+        "id": "2415666-hal3",
         "name": "Teh Tarik",
         "description": "Pulled milk tea, served hot or cold",
         "price": 2.5,
@@ -34,23 +34,49 @@
   },
   {
     "id": "2415666-kafe-aminah",
-    "name": "Kafe Mahallah Aminah",
-    "location": "Mahallah Aminah, Ground Floor",
+    "name": "Cafe Aminah",
+    "location": "Mahallah Aminah, Cafeteria",
     "openHours": "8:00 am - 9:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "5666-ami1",
-        "name": "Nasi Ayam Penyet",
-        "description": "Smashed fried chicken with sambal and rice",
-        "price": 9,
-        "category": "Rice",
+        "id": "2415666-ami1",
+        "name": "Ayam Gepuk Set A",
+        "description": "Crispy smashed fried chicken served with rice and spicy sambal",
+        "price": 8.00,
+        "category": "Gepuk Sets",
+        "popular": true,
         "available": true
       },
       {
-        "id": "5666-ami2",
+        "id": "2415666-ami2",
+        "name": "Ayam Gepuk Set B",
+        "description": "Crispy smashed fried chicken served with rice, spicy sambal, tofu and fried tempe",
+        "price": 9.00,
+        "category": "Gepuk Sets",
+        "available": true
+      },
+      {
+        "id": "2415666-ami3",
+        "name": "Ayam Gepuk Set C",
+        "description": "Crispy smashed fried chicken served with rice, spicy sambal, tofu, fried tempe and fresh cabbage",
+        "price": 10.00,
+        "category": "Gepuk Sets",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2415666-ami4",
+        "name": "Extra Sambal",
+        "description": "An extra serving of spicy gepuk sambal for those who enjoy more heat",
+        "price": 1.00,
+        "category": "Add Ons",
+        "available": true
+      },
+      {
+        "id": "2415666-ami5",
         "name": "Air Bandung",
-        "description": "Rose syrup with milk",
+        "description": "A refreshing rose syrup drink mixed with creamy milk, served chilled over ice",
         "price": 3,
         "category": "Drinks",
         "available": true
@@ -58,115 +84,151 @@
     ]
   },
   {
-    "id": "2415666-ayam-gepuk-king",
-    "name": "Ayam Gepuk King",
+    "id": "2415666-dapur-zubair",
+    "name": "Dapur Zubair",
     "location": "Mahallah Zubair, Cafeteria",
     "openHours": "10:00 am - 10:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "5666-zub1-setA",
-        "name": "Ayam Gepuk Set A",
-        "price": 9.9,
-        "category": "Main Dish",
+        "id": "2415666-zub1",
+        "name": "Nasi Ayam Penyet",
+        "description": "Crispy fried chicken served with rice, fresh vegetables and spicy sambal",
+        "price": 9.0,
+        "category": "Rice",
         "popular": true,
         "available": true
       },
       {
-        "id": "5666-zub2-setB",
-        "name": "Ayam Gepuk Set B",
-        "price": 11.9,
-        "category": "Main Dish",
+        "id": "2415666-zub2",
+        "name": "Nasi Goreng Cina",
+        "description": "Chinese-style fried rice with egg, vegetables and chicken",
+        "price": 7.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2415666-zub3",
+        "name": "Chicken Buttermilk Rice",
+        "description": "Fried chicken coated in creamy buttermilk sauce served with steamed rice",
+        "price": 10.0,
+        "category": "Rice",
         "popular": true,
         "available": true
       },
       {
-        "id": "5666-zub3-SetC",
-        "name": "Ayam Gepuk Set C",
-        "price": 14.9,
-        "category": "Main Dish",
-        "popular": true,
-        "available": true
-      },
-      {
-        "id": "5666-zub4",
+        "id": "2415666-zub4",
         "name": "Telur Mata",
+        "description": "A freshly fried egg with a runny yolk",
         "price": 2.0,
         "category": "Add Ons",
-        "popular": true,
         "available": true
       },
       {
-        "id": "5666-zub5",
-        "name": "Kubis Goreng",
-        "price": 2.0,
-        "category": "Add Ons",
-        "popular": true,
-        "available": false
+        "id": "2415666-zub5",
+        "name": "Iced Lemon Tea",
+        "description": "Refreshing iced tea infused with lemon",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
       }
     ]
   },
   {
-    "id": "2415666-KPMT",
-    "name": "Kedai Makan Pantai Timur",
+    "id": "2415666-selera-pantai",
+    "name": "Selera Pantai",
     "location": "Mahallah Bilal, Block C",
     "openHours": "7:00 am - 10:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "5666-ikan patin",
-        "name": "Ikan Patin Masak Lemak",
-        "description": "Ikan Sangkar",
-        "price": 8.5,
-        "category": "Gravy",
+        "id": "2415666-pantai1",
+        "name": "Nasi Kerabu Ayam",
+        "description": "Blue-coloured rice served with grilled chicken, fresh herbs, crackers and budu sauce",
+        "price": 9.0,
+        "category": "Rice",
+        "popular": true,
         "available": true
       },
       {
-        "id": "5666-fragrant rice",
-        "name": "Fragrant Rice",
-        "description": "White Rice",
-        "price": 2,
+        "id": "2415666-pantai2",
+        "name": "Nasi Dagang Ikan Tongkol",
+        "description": "Fragrant rice cooked with coconut milk served with tuna curry and pickled vegetables",
+        "price": 10.0,
         "category": "Rice",
         "available": true
       },
       {
-        "id": "5666-sky juice",
-        "name": "Sky Juice",
-        "description": "Coway",
-        "price": 0.5,
-        "category": "Drinks",
+        "id": "2415666-pantai3",
+        "name": "Laksam Kelantan",
+        "description": "Soft rice rolls served in a creamy fish-based coconut gravy",
+        "price": 7.0,
+        "category": "Noodles",
         "available": true
       },
       {
-        "id": "5666-coconut shake",
-        "name": "Coconut Shake",
-        "description": "Fresh Coconut, blended everyday",
-        "price": 4.5,
+        "id": "2415666-pantai4",
+        "name": "Keropok Lekor",
+        "description": "Traditional fish crackers deep-fried until golden and crispy",
+        "price": 4.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2415666-pantai5",
+        "name": "Teh O Ais",
+        "description": "Chilled black tea served with sugar",
+        "price": 2.0,
         "category": "Drinks",
-        "available": false
+        "available": true
       }
     ]
   },
   {
-    "id": "2415666-KMU",
-    "name": "Kedai Makan Masakan Utara",
+    "id": "2415666-utara-bites",
+    "name": "Utara Bites",
     "location": "Mahallah Ali, Ground Floor",
     "openHours": "8:00 am - 9:00 pm",
     "isOpen": true,
     "menu": [
       {
-        "id": "5666-nasi ayam penyet",
-        "name": "Nasi Ayam Penyet",
-        "description": "Smashed fried chicken with sambal and rice",
-        "price": 9,
-        "category": "Rice",
+        "id": "2415666-utara1",
+        "name": "Mee Kari",
+        "description": "Yellow noodles served in a rich curry broth with tofu puffs and boiled egg",
+        "price": 7.0,
+        "category": "Noodles",
+        "popular": true,
         "available": true
       },
       {
-        "id": "5666-air tembikai",
+        "id": "2415666-utara2",
+        "name": "Laksa Utara",
+        "description": "Rice noodles served with tangy fish gravy, cucumber, onions and fresh herbs",
+        "price": 7.5,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2415666-utara3",
+        "name": "Roti Jala with Curry",
+        "description": "Soft net-shaped crepes served with savoury chicken curry",
+        "price": 5.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2415666-utara4",
+        "name": "Cucur Udang",
+        "description": "Crispy prawn fritters mixed with vegetables and served with dipping sauce",
+        "price": 4.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2415666-utara5",
         "name": "Air Tembikai",
-        "description": "Fresh watermelon",
-        "price": 3,
+        "description": "Refreshing watermelon juice served chilled",
+        "price": 3.0,
         "category": "Drinks",
         "available": true
       }
