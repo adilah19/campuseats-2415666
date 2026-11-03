@@ -536,3 +536,16 @@ a.card:hover {
 .error {
   border-left: 4px solid #b3261e;
 }
+
+/* Week 4: dietary tag filter */
+.tag-filter {
+  border: 1px solid #c5cbd3;
+  border-radius: 8px;
+  margin: 0 0 1rem;
+  padding: 0.5rem 1rem;
+  background: #fff;
+}
+.tag-option {
+  margin-right: 1rem;
+  text-transform: capitalize;
+}

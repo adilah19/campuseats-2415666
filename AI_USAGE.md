@@ -25,3 +25,12 @@
     > Changed: Adjust the example component name and prop names to match my existing Week 2 code.
     > Rejected: I did not directly copy the suggested MenuList component because I need to use my own component instead of an example that may not match my code.
 - One thing the AI got wrong and how I fixed it: The AI suggested using MenuList as an example component, but it might not match the component I created in Week 2. So, I need to check my existing code and replace it with my actual component name and the correct prop names.
+
+## Week 4
+- Tool(s): -
+- What I asked for: -
+- What I kept, changed or rejected, and why:
+    > Kept: -
+    > Changed: -
+    > Rejected: -
+- One thing the AI got wrong and how I fixed it: -
