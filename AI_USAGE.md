@@ -27,10 +27,10 @@
 - One thing the AI got wrong and how I fixed it: The AI suggested using MenuList as an example component, but it might not match the component I created in Week 2. So, I need to check my existing code and replace it with my actual component name and the correct prop names.
 
 ## Week 4
-- Tool(s): -
-- What I asked for: -
+- Tool(s): Claude
+- What I asked for: How to undo or remove the reactdone tag that I had accidentally created after Lab 3 and return to the previous state.
 - What I kept, changed or rejected, and why:
-    > Kept: -
-    > Changed: -
+    > Kept: Claude's suggestion to remove/delete the reactdone tag.
+    > Changed: Followed the suggested steps to delete the reactdone tag and make the necessary adjustments.
     > Rejected: -
 - One thing the AI got wrong and how I fixed it: -
