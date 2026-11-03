@@ -12,6 +12,7 @@
         "description": "Coconut rice, fried chicken, sambal, egg and peanuts",
         "price": 7.5,
         "category": "Rice",
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
@@ -20,6 +21,7 @@
         "description": "Yellow noodles fried with egg, tofu and spicy sauce",
         "price": 6,
         "category": "Noodles",
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
@@ -28,6 +30,7 @@
         "description": "Pulled milk tea, served hot or cold",
         "price": 2.5,
         "category": "Drinks",
+        "tags": ["halal"],
         "available": false
       }
     ]
@@ -43,34 +46,38 @@
         "id": "2415666-ami1",
         "name": "Ayam Gepuk Set A",
         "description": "Crispy smashed fried chicken served with rice and spicy sambal",
-        "price": 8.00,
+        "price": 8.0,
         "category": "Gepuk Sets",
         "popular": true,
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
         "id": "2415666-ami2",
         "name": "Ayam Gepuk Set B",
         "description": "Crispy smashed fried chicken served with rice, spicy sambal, tofu and fried tempe",
-        "price": 9.00,
+        "price": 9.0,
         "category": "Gepuk Sets",
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
         "id": "2415666-ami3",
         "name": "Ayam Gepuk Set C",
         "description": "Crispy smashed fried chicken served with rice, spicy sambal, tofu, fried tempe and fresh cabbage",
-        "price": 10.00,
+        "price": 10.0,
         "category": "Gepuk Sets",
         "popular": true,
+        "tags": ["halal", "spicy", "vegetarian"],
         "available": true
       },
       {
         "id": "2415666-ami4",
         "name": "Extra Sambal",
         "description": "An extra serving of spicy gepuk sambal for those who enjoy more heat",
-        "price": 1.00,
+        "price": 1.0,
         "category": "Add Ons",
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
@@ -79,6 +86,7 @@
         "description": "A refreshing rose syrup drink mixed with creamy milk, served chilled over ice",
         "price": 3,
         "category": "Drinks",
+        "tags": ["halal"],
         "available": true
       }
     ]
@@ -97,6 +105,7 @@
         "price": 9.0,
         "category": "Rice",
         "popular": true,
+        "tags": ["halal", "spicy", "vegetarian"],
         "available": true
       },
       {
@@ -105,6 +114,7 @@
         "description": "Chinese-style fried rice with egg, vegetables and chicken",
         "price": 7.0,
         "category": "Rice",
+        "tags": ["halal", "vegetarian"],
         "available": true
       },
       {
@@ -114,6 +124,7 @@
         "price": 10.0,
         "category": "Rice",
         "popular": true,
+        "tags": ["halal"],
         "available": true
       },
       {
@@ -122,6 +133,7 @@
         "description": "A freshly fried egg with a runny yolk",
         "price": 2.0,
         "category": "Add Ons",
+        "tags": ["halal"],
         "available": true
       },
       {
@@ -130,6 +142,7 @@
         "description": "Refreshing iced tea infused with lemon",
         "price": 2.5,
         "category": "Drinks",
+        "tags": ["halal"],
         "available": true
       }
     ]
@@ -148,6 +161,7 @@
         "price": 9.0,
         "category": "Rice",
         "popular": true,
+        "tags": ["halal"],
         "available": true
       },
       {
@@ -156,6 +170,7 @@
         "description": "Fragrant rice cooked with coconut milk served with tuna curry and pickled vegetables",
         "price": 10.0,
         "category": "Rice",
+        "tags": ["halal", "seafood", "vegetarian"],
         "available": true
       },
       {
@@ -164,6 +179,7 @@
         "description": "Soft rice rolls served in a creamy fish-based coconut gravy",
         "price": 7.0,
         "category": "Noodles",
+        "tags": ["halal", "seafood"],
         "available": true
       },
       {
@@ -172,6 +188,7 @@
         "description": "Traditional fish crackers deep-fried until golden and crispy",
         "price": 4.0,
         "category": "Snacks",
+        "tags": ["halal", "seafood"],
         "available": true
       },
       {
@@ -180,6 +197,7 @@
         "description": "Chilled black tea served with sugar",
         "price": 2.0,
         "category": "Drinks",
+        "tags": ["halal"],
         "available": true
       }
     ]
@@ -198,6 +216,7 @@
         "price": 7.0,
         "category": "Noodles",
         "popular": true,
+        "tags": ["halal", "spicy"],
         "available": true
       },
       {
@@ -206,6 +225,7 @@
         "description": "Rice noodles served with tangy fish gravy, cucumber, onions and fresh herbs",
         "price": 7.5,
         "category": "Noodles",
+        "tags": ["halal", "seafood"],
         "available": true
       },
       {
@@ -214,6 +234,7 @@
         "description": "Soft net-shaped crepes served with savoury chicken curry",
         "price": 5.0,
         "category": "Snacks",
+        "tags": ["halal"],
         "available": true
       },
       {
@@ -222,6 +243,7 @@
         "description": "Crispy prawn fritters mixed with vegetables and served with dipping sauce",
         "price": 4.0,
         "category": "Snacks",
+        "tags": ["halal", "seafood"],
         "available": true
       },
       {
@@ -230,6 +252,7 @@
         "description": "Refreshing watermelon juice served chilled",
         "price": 3.0,
         "category": "Drinks",
+        "tags": ["halal"],
         "available": true
       }
     ]
