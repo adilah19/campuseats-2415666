@@ -34,3 +34,12 @@
     > Changed: Followed the suggested steps to delete the reactdone tag and make the necessary adjustments.
     > Rejected: -
 - One thing the AI got wrong and how I fixed it: -
+
+## Week 5
+- Tool(s): Claude
+- What I asked for: Explaination details of the Week 5 personal feature in the lab sheet because I did not understand it. I also to fix errors such as blank screen and missing imports.
+- What I kept, changed or rejected, and why:
+    > Kept: The auth code from the lab sheet (B2), same pattern as my Week 4 CartProvider/cart-context.
+    > Changed: I added the missing imports in App.jsx. In VendorPage.jsx I changed my dietary tags from the URL to useLocalStorage with a key that ends in the user's id (ce-diet-<uid>), and guests do not save anything.
+    > Rejected: The separate personal feature file that Claude suggested, because my personal feature from Week 1 to Week 4 is already in VendorPage.jsx.
+- One thing the AI got wrong and how I fixed it: Claude suggested creating a new file for my personal feature, but the feature already existed in VendorPage.jsx and only needed to be changed.

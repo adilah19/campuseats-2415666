@@ -1,5 +1,7 @@
-import { Link, useParams, useSearchParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { useVendors } from '../hooks/useVendors.js'
+import { useAuth } from '../hooks/useAuth.js'
+import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import MenuList from '../components/MenuList.jsx'
 import { Loading, ErrorMessage } from '../components/Status.jsx'
 
@@ -7,19 +9,22 @@ const ALL_TAGS = ['halal', 'vegetarian', 'spicy', 'seafood']
 
 function VendorPage() {
   const { id } = useParams()
-  const [searchParams, setSearchParams] = useSearchParams()
+  const { user } = useAuth()
   const { vendors, loading, error, reload } = useVendors()
 
-  // ticked tags live in the URL: /vendor/abc?tag=spicy&tag=halal
-  const selectedTags = searchParams.getAll('tag')
+  // ticked tags: saved per user; guests can filter but nothing is saved
+  const [selectedTags, setSelectedTags] = useLocalStorage(
+    'ce-diet-' + (user?.uid ?? 'guest'),
+    [],
+    Boolean(user),
+  )
 
   function toggleTag(tag) {
-    const next = selectedTags.includes(tag)
-      ? selectedTags.filter((t) => t !== tag)
-      : [...selectedTags, tag]
-    setSearchParams({ tag: next }, { replace: true })
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
+    )
   }
-
+  
   if (loading) return <Loading />
   if (error) return <ErrorMessage message={error} onRetry={reload} />
 
@@ -69,4 +74,5 @@ function VendorPage() {
     </section>
   )
 }
+
 export default VendorPage
